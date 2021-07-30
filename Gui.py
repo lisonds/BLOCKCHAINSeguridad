@@ -127,7 +127,7 @@ boton = ttk.Button(frame1, text="Terminar contrato", command=cifrado)
 boton.place(x=90, y=200)
 
 
-label = Label(frame1, text="INGRESE EL HASH ")
+label = Label(frame1, text="Ingrese el hash")
 label.place(x=0, y=15)
 
 #w=Spinbox(frame1, values=("1","2","3","4","5","6","7","8","9","10"))
