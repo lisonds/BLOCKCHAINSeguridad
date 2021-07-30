@@ -65,3 +65,5 @@ pantalla3.place(x=0, y=190)
 BotonCalcular = Button(ventana, text="Calcular Las raices",
                        font=("Consolas", 14), command=Raices)
 BotonCalcular.place(x=40, y=240)
+
+mainloop()
