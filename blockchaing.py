@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import tkinter
 from tkinter import messagebox
 from tkinter import *
@@ -67,3 +68,9 @@ BotonCalcular = Button(ventana, text="Calcular Las raices",
 BotonCalcular.place(x=40, y=240)
 
 mainloop()
+=======
+print("hola pozo")
+print*("pozo papi riki")
+print("Hola soy Chichito n° 1")
+
+>>>>>>> Stashed changes
