@@ -127,8 +127,8 @@ botonContrato.place(x=540, y=40)
 boton3 = ttk.Button(frame1, text="Minar contrato", command=cifrado)
 boton3.place(x=300, y=180)
 
-boton = ttk.Button(frame1, text="Terminar contrato", command=cifrado)
-boton.place(x=90, y=200)
+boton4 = ttk.Button(frame1, text="Terminar contrato", command=cifrado)
+boton4.place(x=300, y=300)
 
 
 label = Label(frame1, text="Ingrese el hash")
