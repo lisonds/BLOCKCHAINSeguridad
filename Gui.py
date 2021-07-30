@@ -102,7 +102,7 @@ frame2.pack(fill="both", expand=True)
 
 
 # agregando los frames a cuadro madre
-cuadroMadre.add(frame1, text='minar un contrato')
+cuadroMadre.add(frame1, text='MINAR CONTRATO')
 cuadroMadre.add(frame2, text='CONTRATOS INTELIGENTES')
 
 
@@ -125,7 +125,7 @@ botonContrato.place(x=540, y=40)
 
 
 boton3 = ttk.Button(frame1, text="Minar contrato", command=cifrado)
-boton3.place(x=300, y=180)
+boton3.place(x=320, y=170)
 
 boton4 = ttk.Button(frame1, text="Terminar contrato", command=cifrado)
 boton4.place(x=300, y=300)
