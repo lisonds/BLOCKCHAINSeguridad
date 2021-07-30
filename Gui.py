@@ -120,6 +120,8 @@ texto1.pack()
 texto1.config(width=35, height=5, padx=15, pady=15, font=("curier,15"))
 texto1.place(x=10, y=60)
 
+botonContrato = ttk.Button(frame1, text="Existe contrato?", command=cifrado)
+botonContrato.place(x=420, y=15)
 
 boton = ttk.Button(frame1, text="Cifrar", command=cifrado)
 boton.place(x=90, y=200)
