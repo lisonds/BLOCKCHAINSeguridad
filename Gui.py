@@ -78,9 +78,9 @@ def decifrado():
 root=tk.Tk()
 root.title("Interfaz tulio")
 root.geometry('800x700')
-imagenlogo=ImageTk.PhotoImage(Image.open(r"C:\Users\Lisonds\Desktop\seguridad lab\python\INTERFACE\logo1.jpg"))
-label=Label(root,image=imagenlogo)
-label.place(relwidth=1,y=0)
+#imagenlogo=ImageTk.PhotoImage(Image.open(r"C:\Users\Lisonds\Desktop\seguridad lab\python\INTERFACE\logo1.jpg"))
+#label=Label(root,image=imagenlogo)
+#abel.place(relwidth=1,y=0)
 
 #label=Label(root,text="INGENIERIA DE SISTEMAS")
 #label.place(x=200,y=100)
