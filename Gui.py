@@ -99,7 +99,7 @@ frame2.pack(fill="both",expand=True)
 
 
 #agregando los frames a cuadro madre
-cuadroMadre.add(frame1,text='BLOCKCHAIN')
+cuadroMadre.add(frame1,text='minar un contrato')
 cuadroMadre.add(frame2,text='CONTRATOS INTELIGENTES')
 
 
