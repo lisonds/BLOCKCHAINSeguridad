@@ -121,7 +121,7 @@ texto1.config(width=35, height=5, padx=15, pady=15, font=("curier,15"))
 texto1.place(x=10, y=60)
 
 
-boton = ttk.Button(frame1, text="Cifrar", command=cifrado)
+boton = ttk.Button(frame1, text="Terminar contrato", command=cifrado)
 boton.place(x=90, y=200)
 
 
