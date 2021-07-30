@@ -104,45 +104,44 @@ cuadroMadre.add(frame2,text='CONTRATOS INTELIGENTES')
 
 
 #cifrado por sustitucion
-label=Label(frame1,text="SUSTITUCION METODO ")
-label.place(x=100,y=5)
+#label=Label(frame1,text="HASH ")
+#label.place(x=100,y=5)
 
 #mensaje=StringVar()
 #txtMensaje=Entry(frame1,textvariable=mensaje,width=50)
 #txtMensaje.place(x=110,y=15)
 
 #mensaje=StringVar()
-texto1=Text(frame1)
-texto1.pack()
-texto1.config(width=35,height=5,padx=15,pady=15,font=("curier,15"))
-texto1.place(x=10,y=25)
+#texto1=Text(frame1)
+#texto1.pack()
+#texto1.config(width=35,height=5,padx=15,pady=15,font=("curier,15"))
+#texto1.place(x=10,y=25)
 
 
 
-boton=ttk.Button(frame1,text="Cifrar",command=cifrado)
-boton.place(x=130,y=180)
+#boton=ttk.Button(frame1,text="Cifrar",command=cifrado)
+#boton.place(x=130,y=180)
 
 
-label=Label(frame1,text="SUSTITUCION METODO ")
-label.place(x=490,y=5)
+#label=Label(frame1,text="HASH ")
+#label.place(x=490,y=5)
 
-texto2=Text(frame1)
-texto2.pack()
-texto2.config(width=35,height=5,padx=15,pady=15,font=("curier,15"))
-texto2.place(x=400,y=25)
+#w=Spinbox(frame1, values=("1","2","3","4","5","6","7","8","9","10"))
+#w.place(x=310,y=250)
+#w.config(font=("curier,15"))
 
-boton=ttk.Button(frame1,text="Decifrar",command=decifrado)
-boton.place(x=520,y=180)
+#texto2=Text(frame1)
+#texto2.pack()
+#texto2.config(width=35,height=5,padx=15,pady=15,font=("curier,15"))
+#texto2.place(x=400,y=25)
 
-label=Label(frame1,text="Key ")
-label.place(x=250,y=250)
+#boton=ttk.Button(frame1,text="Decifrar",command=decifrado)
+#boton.place(x=520,y=180)
 
-w=Spinbox(frame1, values=("1","2","3","4","5","6","7","8","9","10"))
-w.place(x=310,y=250)
-w.config(font=("curier,15"))
+#label=Label(frame1,text="Key ")
+#label.place(x=250,y=250)
 
-
-texto3=Entry(frame1).place(x=10,y=300,width=350,height=100)
+#texto3=Entry(frame1).place(x=10,y=300,width=350,height=100)
 #texto3.config(width=35,height=5)
 #texto3.place(x=10,y=300)
 
