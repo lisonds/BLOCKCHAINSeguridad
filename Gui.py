@@ -115,19 +115,25 @@ txtMensaje = Entry(frame1, textvariable=mensaje, width=50)
 txtMensaje.place(x=110, y=15)
 
 mensaje = StringVar()
-texto1 = Text(frame1)
-texto1.pack()
-texto1.config(width=35, height=5, padx=15, pady=15, font=("curier,15"))
-texto1.place(x=10, y=60)
 
 
-boton = ttk.Button(frame1, text="Cifrar", command=cifrado)
-boton.place(x=90, y=200)
+boton3 = ttk.Button(frame1, text="Minar contrato", command=cifrado)
+boton3.place(x=300, y=180)
 
 
 label = Label(frame1, text="INGRESE EL HASH ")
 label.place(x=0, y=15)
 
+
+label2 = Label(frame1, text="INGRESE NUEVO HASH AL CONTRATO",
+               font='Helvetica 12 bold')
+label2.place(x=230, y=100)
+
+label3 = Label(frame1, text="Ingrese nuevo Hash")
+label3.place(x=100, y=130)
+
+txtMensaje3 = Entry(frame1, textvariable=mensaje, width=50)
+txtMensaje3.place(x=230, y=130)
 #w=Spinbox(frame1, values=("1","2","3","4","5","6","7","8","9","10"))
 # w.place(x=310,y=250)
 # w.config(font=("curier,15"))
