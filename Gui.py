@@ -92,19 +92,16 @@ cuadroMadre.pack(pady=110,expand=True)
 
 frame1=ttk.Frame(cuadroMadre,width=900, height=600)
 frame2=ttk.Frame(cuadroMadre,width=900, height=600)
-frame3=ttk.Frame(cuadroMadre,width=900, height=600)
-frame4=ttk.Frame(cuadroMadre,width=900, height=600)
+
 
 frame1.pack(fill="both",expand=True)
 frame2.pack(fill="both",expand=True)
-frame3.pack(fill="both",expand=True)
-frame4.pack(fill="both",expand=True)
+
 
 #agregando los frames a cuadro madre
-cuadroMadre.add(frame1,text='Sustitucion')
-cuadroMadre.add(frame2,text='Transposicion')
-cuadroMadre.add(frame3,text='relleno')
-cuadroMadre.add(frame4,text='polialfabetico')
+cuadroMadre.add(frame1,text='BLOCKCHAIN')
+cuadroMadre.add(frame2,text='CONTRATOS INTELIGENTES')
+
 
 #cifrado por sustitucion
 label=Label(frame1,text="SUSTITUCION METODO ")
