@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import Image, ttk
 from tkinter import *
 from tkinter import font
-from PIL import ImageTk, Image
+
 
 #funcion para el cifrado y descifrado
 def cifrado():
@@ -82,9 +82,9 @@ root.geometry('800x700')
 #label=Label(root,image=imagenlogo)
 #abel.place(relwidth=1,y=0)
 
-#label=Label(root,text="INGENIERIA DE SISTEMAS")
-#label.place(x=200,y=100)
-#label.pack()
+label=Label(root,text="INGENIERIA DE SISTEMAS")
+label.place(x=200,y=100)
+label.pack()
 
 #cuadro madre
 cuadroMadre=ttk.Notebook(root)
@@ -104,27 +104,27 @@ cuadroMadre.add(frame2,text='CONTRATOS INTELIGENTES')
 
 
 #cifrado por sustitucion
-#label=Label(frame1,text="HASH ")
-#label.place(x=100,y=5)
+#abel=Label(frame1,text="HASH ")
+label.place(x=100,y=5)
 
-#mensaje=StringVar()
-#txtMensaje=Entry(frame1,textvariable=mensaje,width=50)
-#txtMensaje.place(x=110,y=15)
+mensaje=StringVar()
+txtMensaje=Entry(frame1,textvariable=mensaje,width=50)
+txtMensaje.place(x=110,y=15)
 
-#mensaje=StringVar()
-#texto1=Text(frame1)
-#texto1.pack()
-#texto1.config(width=35,height=5,padx=15,pady=15,font=("curier,15"))
-#texto1.place(x=10,y=25)
-
-
-
-#boton=ttk.Button(frame1,text="Cifrar",command=cifrado)
-#boton.place(x=130,y=180)
+mensaje=StringVar()
+texto1=Text(frame1)
+texto1.pack()
+texto1.config(width=35,height=5,padx=15,pady=15,font=("curier,15"))
+texto1.place(x=10,y=60)
 
 
-#label=Label(frame1,text="HASH ")
-#label.place(x=490,y=5)
+
+boton=ttk.Button(frame1,text="Cifrar",command=cifrado)
+boton.place(x=90,y=200)
+
+
+label=Label(frame1,text="HASH ")
+label.place(x=490,y=5)
 
 #w=Spinbox(frame1, values=("1","2","3","4","5","6","7","8","9","10"))
 #w.place(x=310,y=250)
