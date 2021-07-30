@@ -110,14 +110,18 @@ cuadroMadre.add(frame2, text='CONTRATOS INTELIGENTES')
 #abel=Label(frame1,text="HASH ")
 label.place(x=100, y=5)
 
+labelContratoAnterior = Label(frame1, text="INGRESE HASH DEL CONTRATO ANTERIOR",
+                              font='Helvetica 12 bold')
+labelContratoAnterior.place(x=230, y=5)
+
 mensaje = StringVar()
 txtMensaje = Entry(frame1, textvariable=mensaje, width=50)
-txtMensaje.place(x=110, y=15)
+txtMensaje.place(x=230, y=40)
 
 mensaje = StringVar()
 
 botonContrato = ttk.Button(frame1, text="Existe contrato?", command=cifrado)
-botonContrato.place(x=420, y=15)
+botonContrato.place(x=540, y=40)
 
 
 boton3 = ttk.Button(frame1, text="Minar contrato", command=cifrado)
@@ -128,7 +132,7 @@ boton.place(x=90, y=200)
 
 
 label = Label(frame1, text="Ingrese el hash")
-label.place(x=0, y=15)
+label.place(x=100, y=40)
 
 
 label2 = Label(frame1, text="INGRESE NUEVO HASH AL CONTRATO",
