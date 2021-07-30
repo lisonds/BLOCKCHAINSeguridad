@@ -1,3 +1,2 @@
 print("hola pozo")
-print("Hola Chichitos")
-print("Esto es dificil")
+print("Hola soy Chichito n° 1")
