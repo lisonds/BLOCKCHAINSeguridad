@@ -84,16 +84,10 @@ root.geometry('800x700')
 #imagenlogo=ImageTk.PhotoImage(Image.open(r"C:\Users\Lisonds\Desktop\seguridad lab\python\INTERFACE\logo1.jpg"))
 # label=Label(root,image=imagenlogo)
 # abel.place(relwidth=1,y=0)
+
 label = Label(root, text="INGENIERIA DE SISTEMAS")
 label.place(x=200, y=100)
 label.pack()
-
-
-
-label = Label(root, text="Ingresar hash del contrato anterior")
-label.place(x=50, y=70)
-label.pack()
-
 
 # cuadro madre
 cuadroMadre = ttk.Notebook(root)
@@ -108,7 +102,7 @@ frame2.pack(fill="both", expand=True)
 
 
 # agregando los frames a cuadro madre
-cuadroMadre.add(frame1, text='terminar un contrato')
+cuadroMadre.add(frame1, text='MINAR CONTRATO')
 cuadroMadre.add(frame2, text='CONTRATOS INTELIGENTES')
 
 
@@ -116,25 +110,40 @@ cuadroMadre.add(frame2, text='CONTRATOS INTELIGENTES')
 #abel=Label(frame1,text="HASH ")
 label.place(x=100, y=5)
 
+labelContratoAnterior = Label(frame1, text="INGRESE HASH DEL CONTRATO ANTERIOR",
+                              font='Helvetica 12 bold')
+labelContratoAnterior.place(x=230, y=5)
+
 mensaje = StringVar()
 txtMensaje = Entry(frame1, textvariable=mensaje, width=50)
-txtMensaje.place(x=110, y=15)
+txtMensaje.place(x=230, y=40)
 
 mensaje = StringVar()
-texto1 = Text(frame1)
-texto1.pack()
-texto1.config(width=35, height=5, padx=15, pady=15, font=("curier,15"))
-texto1.place(x=10, y=60)
+
+botonContrato = ttk.Button(frame1, text="Existe contrato?", command=cifrado)
+botonContrato.place(x=540, y=40)
 
 
+boton3 = ttk.Button(frame1, text="Minar contrato", command=cifrado)
+boton3.place(x=320, y=170)
+
+boton4 = ttk.Button(frame1, text="Terminar contrato", command=cifrado)
+boton4.place(x=300, y=300)
 
 
-label = Label(frame1, text="INGRESE EL HASH ")
-label.place(x=0, y=15)
+label = Label(frame1, text="Ingrese el hash")
+label.place(x=100, y=40)
 
-boton = ttk.Button(frame1, text="Terminar contrato", command=cifrado)
-boton.place(x=90, y=200)
 
+label2 = Label(frame1, text="INGRESE NUEVO HASH AL CONTRATO",
+               font='Helvetica 12 bold')
+label2.place(x=230, y=100)
+
+label3 = Label(frame1, text="Ingrese nuevo Hash")
+label3.place(x=100, y=130)
+
+txtMensaje3 = Entry(frame1, textvariable=mensaje, width=50)
+txtMensaje3.place(x=230, y=130)
 #w=Spinbox(frame1, values=("1","2","3","4","5","6","7","8","9","10"))
 # w.place(x=310,y=250)
 # w.config(font=("curier,15"))
