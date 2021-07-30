@@ -123,7 +123,7 @@ texto1.place(x=10, y=60)
 botonContrato = ttk.Button(frame1, text="Existe contrato?", command=cifrado)
 botonContrato.place(x=420, y=15)
 
-boton = ttk.Button(frame1, text="Cifrar", command=cifrado)
+boton = ttk.Button(frame1, text="Terminar contrato", command=cifrado)
 boton.place(x=90, y=200)
 
 
