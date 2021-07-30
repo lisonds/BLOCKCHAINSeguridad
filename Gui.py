@@ -102,7 +102,7 @@ frame2.pack(fill="both", expand=True)
 
 
 # agregando los frames a cuadro madre
-cuadroMadre.add(frame1, text='BLOCKCHAIN')
+cuadroMadre.add(frame1, text='minar un contrato')
 cuadroMadre.add(frame2, text='CONTRATOS INTELIGENTES')
 
 
@@ -110,12 +110,9 @@ cuadroMadre.add(frame2, text='CONTRATOS INTELIGENTES')
 #abel=Label(frame1,text="HASH ")
 label.place(x=100, y=5)
 
-label = Label(frame1, text="HASH ")
-label.place(x=100, y=15)
-
 mensaje = StringVar()
 txtMensaje = Entry(frame1, textvariable=mensaje, width=50)
-txtMensaje.place(x=180, y=15)
+txtMensaje.place(x=110, y=15)
 
 mensaje = StringVar()
 texto1 = Text(frame1)
@@ -127,6 +124,9 @@ texto1.place(x=10, y=60)
 boton = ttk.Button(frame1, text="Cifrar", command=cifrado)
 boton.place(x=90, y=200)
 
+
+label = Label(frame1, text="INGRESE EL HASH ")
+label.place(x=0, y=15)
 
 #w=Spinbox(frame1, values=("1","2","3","4","5","6","7","8","9","10"))
 # w.place(x=310,y=250)
