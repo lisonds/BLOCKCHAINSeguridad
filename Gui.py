@@ -116,12 +116,18 @@ txtMensaje.place(x=110, y=15)
 
 mensaje = StringVar()
 
+botonContrato = ttk.Button(frame1, text="Existe contrato?", command=cifrado)
+botonContrato.place(x=420, y=15)
+
 
 boton3 = ttk.Button(frame1, text="Minar contrato", command=cifrado)
 boton3.place(x=300, y=180)
 
+boton = ttk.Button(frame1, text="Terminar contrato", command=cifrado)
+boton.place(x=90, y=200)
 
-label = Label(frame1, text="INGRESE EL HASH ")
+
+label = Label(frame1, text="Ingrese el hash")
 label.place(x=0, y=15)
 
 
